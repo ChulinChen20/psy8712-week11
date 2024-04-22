@@ -121,5 +121,6 @@ write_csv(data.frame(Table4),"../out/table4.csv")
 # Q2: Assuming that the job is highly parallel, more cores means that more
 # tasks can be run at the same time, which leads to faster processing time.
 # Q3: I will still select elastic net based on a joined consideration of
-# performance and run time. I think the use of supercomputer is unnecessary 
-# for the model given that it runs pretty fast locally.
+# performance and run time. The use of supercomputer is nice but not necessary 
+# because it does not shorten the run time a lot but takes much longer time
+# to set up.
